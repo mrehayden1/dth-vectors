@@ -43,25 +43,3 @@ ghc-options:
 
 library:
   source-dirs: src
-
-executables:
-  dth-vectors-exe:
-    main:                Main.hs
-    source-dirs:         app
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - dth-vectors
-
-tests:
-  dth-vectors-test:
-    main:                Spec.hs
-    source-dirs:         test
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - dth-vectors
