@@ -1,10 +1,10 @@
 name:                dth-vectors
 version:             0.1.0.0
-github:              "githubuser/dth-vectors"
+github:              "mrehayden1/dth-vectors"
 license:             BSD-3-Clause
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2024 Author name here"
+author:              "Matthew Hayden"
+maintainer:          "mrehayden@gmail.com"
+copyright:           "2024 Matthew Hayden"
 
 extra-source-files:
 - README.md
